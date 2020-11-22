@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Moto. Co</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="index.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+
+<header>
+  <nav id="mobileNav">
+    <a
+      ><h2 id="search"><i class="fa fa-search"></i></h2
+    ></a>
+    <a href="index.html"
+      ><img
+        id="navImg"
+        src="https://www.clipartmax.com/png/full/119-1190563_logo-design-for-motorbike-motorcycle-logo-design-png.png"
+    /></a>
+    <hr id="mobBlueBar" />
+    <h2 id="toggle_menu" onclick="toggle_menu();">☰</h2>
+    <ul id="menu" class="">
+      <li><a href="productList.html">Products</a></li>
+      <li><a href="payment.html">Cart</a></li>
+      <li><a id="loginButtonMob" href="login.html">Login</a></li>
+      <hr id="navBotBar" />
+    </ul>
+  </nav>
+
+  <nav id="desktopNav">
+    <a id="logo" href="index.html"
+      ><img
+        src="https://www.clipartmax.com/png/full/119-1190563_logo-design-for-motorbike-motorcycle-logo-design-png.png"
+    /></a>
+    <a id="loginButton" href="login.html">Login</a>
+    <a id="buttons" href="productList.html">Products</a>
+    <a id="buttons" href="payment.html">Cart</a>
+    <a id="buttons" href="index.html">Home</a>
+  </nav>
+  <div id="navSlog">🏍️ Welcome to Moto. Co! 🏍️</div>
+</header>
+
+    <body id="back">
+<!-- <div id="heading">
+  <h3>Login</h3>
+</div> -->
+<div id="formFlex">
+
+<form id="login" class="login">
+  <h2>Login</h2>
+
+  <div class="form-control">
+      <input type="text" id="loginUN" placeholder="Username" required>
+      <small>Error message</small>
+  </div>
+  
+  <div class="form-control">
+      <input type="password" id="loginPW" placeholder="Password" required>
+      <small>Error message</small>
+  </div>
+  
+  <button type="submit">LOGIN</button>
+</form>
+
+ <form id="signup" class="signup">
+  <h2>Sign Up</h2>
+
+  <div class="form-control">
+    <input type="text" id="Firstname" placeholder="Firstname" required>
+    <small>Error message</small>
+</div>
+
+<div class="form-control">
+  <input type="text" id="Lastname" placeholder="Lastname" required>
+  <small>Error message</small>
+</div>
+  
+  <div class="form-control">
+      <input type="text" id="Username" placeholder="Username" required>
+      <small>Error message</small>
+  </div>
+  <div class="form-control">
+      <input type="email" id="Email" placeholder="Email" required>
+      <small>Error message</small>
+  </div>
+  <div class="form-control">
+      <input type="password" id="Password" placeholder="Password" required>
+      <small>Error message</small>
+  </div>
+  <div class="form-control">
+      <input type="password" id="Password2" placeholder="Confirm Password" required>
+      <small>Error message</small>
+  </div>
+  <button type="submit">REGISTER</button>
+</form>
+
+</div>
+
+    </body>
+<script src="index.js"></script>
+</html>
+
+
